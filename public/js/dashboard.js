@@ -19502,9 +19502,8 @@ $("#logoutButton").click(function (e) {
     error: function error() {}
   });
 });
-$(".navbar-nav a.active").removeClass("active"); // $("a[href='" + location.href + "']").addClass("active");
-
-$('a[href="' + location.href + '"]').addClass('active');
+$(".navbar-nav a.active").removeClass("active");
+$(".navbar-nav a[href='" + location.href + "']").addClass("active");
 })();
 
 /******/ })()
