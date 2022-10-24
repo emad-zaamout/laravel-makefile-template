@@ -5,6 +5,8 @@ Course: https://youtu.be/D4m0fTPw5Vg
 
 Laravel Makefile template for Docker based projects.
 
+Check the `Makefile` inside the main project folder.
+
 Supported make commands:
 
 ````
