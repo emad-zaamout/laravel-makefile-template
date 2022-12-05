@@ -13,7 +13,7 @@ ps: ## Show containers.
 	@docker compose ps
 
 build: ## Build all containers
-	@docker build --no-cache .
+	@DOCKER_BUILDKIT=0 docker build --no-cache .
 
 start: ## Start all containers
 	@docker compose up --force-recreate -d
